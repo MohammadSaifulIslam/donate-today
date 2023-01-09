@@ -129,8 +129,45 @@ input:focus{
     outline: none;
 }
 /* donate-today css end */
-/* bannar css start */
-/* bannar css end */
+/* donate-plan css start */
+.donate-plan{
+    margin:130px 0 ;
+}
+.donate-plan-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+.donate-info{
+    padding: 60px 25px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    text-align: left;
+    transition: .3s linear;
+}
+.donate-info:hover{
+    background: #ffffff;
+    border: 2px solid #FF5959;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px 1px rgba(97,97,97,0.77);
+}
+.donate-info:hover h3{
+    color: #FF5959;
+}
+.donate-info h3{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: var(--secondary-font);
+    margin: 30px 0 15px;
+    transition: .3s linear;
+}
+.donate-info p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: var(--secondary-font);
+    color: #707070;
+}
+/* donate-plan css end */
 /* bannar css start */
 /* bannar css end */
 /* bannar css start */
