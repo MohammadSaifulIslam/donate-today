@@ -1,0 +1,62 @@
+:root{
+    --primary-font:  'Inter', sans-serif;
+    --secondary-font:  'Poppins', sans-serif;
+    --primary-color: #FF5959;
+}
+*{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+/* bannar css start */
+.bannar{
+    background: url(../images/bannar.jpg) no-repeat center ;
+    padding: 175px 0;
+    text-align: center;
+}
+.bannar-text{
+    width: 800px;
+    margin: 0 auto;
+}
+.bannar h1{
+    font-weight: 700;
+font-size: 65px;
+color: #ffffff;
+font-family: var(--primary-font);
+}
+.bannar p{
+    font-size: 18px;
+line-height: 28px;
+font-family: var(--secondary-font);
+color: #ffffff;
+margin: 20px 0 30px;
+}
+.primary-btn{
+    font-weight: 600;
+font-size: 20px;
+color: #ffffff;
+background: #FF5959;
+padding: 15px 20px;
+border-radius: 5px;
+}
+/* bannar css end */
+
+
+
+
+
+/* bannar css start */
+/* bannar css end */
+/* bannar css start */
+/* bannar css end */
+/* bannar css start */
+/* bannar css end */
+/* bannar css start */
+/* bannar css end */
+
+
